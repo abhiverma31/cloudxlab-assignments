@@ -28,7 +28,7 @@ def sqrt_binary_search(n, precision):
 
 
 # calculate cube root using binary search method
-def cube_binary_search(n, precision):
+def cuberoot_binary_search(n, precision):
     # cube root will be between 1 and n
     low = 1
     high = n
@@ -58,6 +58,6 @@ print(f"Sqaure root --> {square_root}")
 print(f"Verify accuracy --> {square_root ** 2}")
 
 print("\n\n CUBE ROOT CALCULATION")
-cube_root = cube_binary_search(100, .00001)
+cube_root = cuberoot_binary_search(100, .00001)
 print(f"Cube root --> {cube_root}")
 print(f"Verify accuracy --> {cube_root ** 3}")

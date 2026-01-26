@@ -13,7 +13,7 @@ def print_head_or_tail():
     
     print(probability)
     
-    # equal length of interval might imply equal probability of 
+    # equal length of interval should imply equal probability of 
     # output falling under those intervals 
     # hence I'm going ahead with this logic:
     

@@ -12,7 +12,6 @@ def fit(x1, y1, x2, y2):
         return (x1, math.inf)
     
     # from coordinate of point 1 (x1, y1)    
-    m = c = int()
     # # eqn 1
     # y1 = x1 * m + c
     # # eqn 2
