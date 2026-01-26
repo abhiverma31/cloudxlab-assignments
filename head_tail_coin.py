@@ -9,6 +9,17 @@ states = {1: 'Head', 2: 'Tail'}
 
 import random
 def print_head_or_tail():
-    print(states.get(random.randrange(1, 3)))
+    probability = random.random()
+    
+    print(probability)
+    
+    # equal length of interval might imply equal probability of 
+    # output falling under those intervals 
+    # hence I'm going ahead with this logic:
+    
+    if 0.0 < probability < 0.5:
+        print(states.get(1))
+    else:
+        print(states.get(2))    
 
 print_head_or_tail()
