@@ -26,6 +26,7 @@ def find_k_closest_n_d(x_new, X, y, k, distance=sq_distance_n_dim):
     return statistics.mean(nearest_k_y_vals)
 
 
+# test
 X = [[1,2,4,3],[2,4,2,4],[3,10,3,9],[4,10,1,9]]
 y = [1000, 4000, 45000, 66000]
 closest_n_neighbours = find_k_closest_n_d([2, 10, 6, 8], X, y, 2, sq_distance_n_dim)
