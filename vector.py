@@ -41,4 +41,11 @@ new_position = new_position.add(move_wind2)
 print(new_position.x,new_position.y)
 
 pos = Vector(3,4)
-print(pos.turn(30))
+new_pos = pos.turn(90)
+print(new_pos.x, new_pos.y)
+
+new_pos = new_pos.turn(90)
+print(new_pos.x, new_pos.y)
+
+new_pos = new_pos.turn(90)
+print(new_pos.x, new_pos.y)
