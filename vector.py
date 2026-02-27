@@ -12,7 +12,8 @@ class Vector:
         return math.sqrt((self.x - position.x) ** 2 + 
                          (self.y - position.y) ** 2)
     def turn(self, theta):# counterclock wise
-        speed = math.sqrt(self.x ** 2 + self.y ** 2)
+        #speed = math.sqrt(self.x ** 2 + self.y ** 2)
+        speed = self.dist(Vector(0,0)) # origin and point of reference
         #cos_theta = math.cos(math.radians(theta))
         cos_theta1 = self.x / speed # theta1 is the angle of the initial position
         sin_theta1 = self.y / speed
