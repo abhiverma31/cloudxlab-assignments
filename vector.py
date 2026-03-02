@@ -17,8 +17,11 @@ class Vector:
         #cos_theta = math.cos(math.radians(theta))
         cos_theta1 = self.x / speed # theta1 is the angle of the initial position
         sin_theta1 = self.y / speed
+        
+        # use cos(A+B) and sin(A+B) expansion
         cosine_new_angle = cos_theta1 * math.cos(math.radians(theta)) - sin_theta1 * math.sin(math.radians(theta))
         sin_new_angle = sin_theta1 * math.cos(math.radians(theta)) + cos_theta1 * math.sin(math.radians(theta))
+        
         return Vector(speed * cosine_new_angle, speed * sin_new_angle)
     
     
