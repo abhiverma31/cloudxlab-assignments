@@ -10,6 +10,17 @@ m2=[
       [5,6,7,8]
    ] # 4 * 4
 
+# For testing Vector rotation using mat_mult
+# import math
+# m1 = [
+#         [1,1]
+#      ]
+
+# m2 = [
+#         [math.cos(math.radians(30)), math.sin(math.radians(30))],
+#         [- math.sin(math.radians(30)), math.cos(math.radians(30))]
+#      ]
+
 resultant_matrix = []
 
 def mat_mult(m1, m2):

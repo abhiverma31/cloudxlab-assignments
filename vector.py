@@ -52,3 +52,7 @@ print(new_pos.x, new_pos.y)
 
 new_pos = new_pos.turn(90)
 print(new_pos.x, new_pos.y)
+
+position = Vector(1,1)
+new_pos = position.turn(30)
+print(new_pos.x, new_pos.y)
