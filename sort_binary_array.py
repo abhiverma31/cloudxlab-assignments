@@ -22,8 +22,8 @@ print(f"sorted_list using approach 1 ->  {sorted_array}")
 
 def sort_array_2(array):
     result_array = list(filter(lambda x: x == 0, array)) # with this step result_array contain's all 0's of original list
-    how_many_ones_needed = len(array) - len(result_array)
-    result_array.extend(1 for _ in range(how_many_ones_needed))
+    count_of_ones_needed = len(array) - len(result_array)
+    result_array.extend(1 for _ in range(count_of_ones_needed))
     return result_array
 
 sorted_array = sort_array_1([1,0,1,0,1,0,0,0,0,0,1,1,1,1])
