@@ -34,6 +34,7 @@ def merge_sort(array):
         left = merge_sort(array[:mid])
         right = merge_sort(array[mid:])
         return merge_lists(left, right)
-    
-sorted_list = merge_sort([6, 5, 7, 10, 1, -1, 10, 11, -4, 13, -90])    
-print(sorted_list)
+
+if __name__ ==  "__main__":
+    sorted_list = merge_sort([6, 5, 7, 10, 1, -1, 10, 11, -4, 13, -90])    
+    print(sorted_list)
