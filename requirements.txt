@@ -1,2 +1,6 @@
 numpy
 matplotlib
+openai
+scikit-learn
+python-dotenv
+pandas
