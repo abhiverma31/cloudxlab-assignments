@@ -4,6 +4,5 @@
 *__pycache__
 /content_search
 /disease_predictor
-/product_search
 *.npy
 .DS_Store
