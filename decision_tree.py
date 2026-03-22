@@ -29,4 +29,4 @@ jd_description = {
     'nightshift': 0
 }
 
-print(f"Decision to access job offer ->  {salary_dt.check(jd_description)}")       
+print(f"Decision to accept job offer ->  {salary_dt.check(jd_description)}")       
