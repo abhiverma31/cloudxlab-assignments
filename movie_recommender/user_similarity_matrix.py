@@ -32,6 +32,13 @@ def process_data():
     print(df)
     print(df.shape)
     
+    # The next step is to suggest movie names to a 'user' based on the similarity_matix
+       ## 1. Find out top 3 people "closest" to 'user' based on sim matrix
+       ## 2. Recommend movies to 'user' (those movies 'user' has not watched/rated) BASED on -
+             # average of ratings given by "closest" people for those movies
+             # sort the above average DESC
+             # take top 2 -> those are the movie recomendations for 'user'
+    
     
 def min_max_scaling(df):
     m = df.values.copy()
