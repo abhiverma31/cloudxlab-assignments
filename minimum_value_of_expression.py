@@ -10,7 +10,7 @@ import random
     
     # For the example: f(x) =  x ** 4 - 3 * x ** 3 - 5 * x + 10
     # analysing the behaviour of the function w.r.t some integer values of x
-    # f(-1) = -19 -> f(0)  = 10 -> f(1)  = 3 -> f(2) = -8 ... [decreasing]
+    # f(-1) = 19 -> f(0)  = 10 -> f(1)  = 3 -> f(2) = -8 ... [decreasing]
     # f(3) = -5 -> f(4) = 54 ...... [increasing]
     
     # so it's clear that from [-inf., 2.....] [decreasing]
