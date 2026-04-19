@@ -5,4 +5,8 @@
 /content_search
 /disease_predictor
 *.npy
+*.JPG
+*.jpeg
+*.csv
+*actors*.*
 .DS_Store
