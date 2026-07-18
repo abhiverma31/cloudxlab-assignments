@@ -4,3 +4,9 @@ openai
 scikit-learn
 python-dotenv
 pandas
+torch>=2.1.0
+torchvision>=0.16.0
+pillow>=10.0.0
+beautifulsoup4
+html2text
+requests
